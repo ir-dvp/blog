@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right top ,rgb(120, 250, 120),rgba(120,150,120,0.5));
+background-color: rgba(1, 49, 31, 1);
+color: rgb(0, 0, 0,0.7);
+
+}
+
+.colorText{
+color: rgb(39, 23, 23);
+
+}
+
+#click{
+
+    background-image:inherit;
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 40%;
+    margin-left: 50px;
+    color: black;
+}
+#demo{
+position: absolute;
+left:20px
+
+}
+
+#click:hover{
+opacity: 1;
+box-shadow: 1px 1px 5px black;
+}
+
